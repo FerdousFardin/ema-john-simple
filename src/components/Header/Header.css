@@ -1,0 +1,21 @@
+.nav-bar{
+    display: flex;
+    background-color: #1C2B35;
+    height: 5rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 7rem;
+}
+.nav-bar img{
+    height: 2.625rem;
+}
+.nav-bar div a{
+    color: #fff;
+    font-size: 1.0625rem;
+    text-decoration: none;
+    margin: 0 2rem;
+    transition: color 250ms ease-in-out;
+}
+.nav-bar div a:hover{
+    color:  #FF9900;
+}
