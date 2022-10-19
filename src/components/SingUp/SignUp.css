@@ -1,0 +1,17 @@
+.btn-signup {
+  font-size: 1.5rem;
+  width: 100%;
+  color: #fff;
+  background: #dd9900;
+  transition: background 0.3s ease, color 0.31s ease, outline 0.31s ease-in;
+}
+.btn-signup:hover {
+  background: #fff;
+  color: #dd9900;
+  outline: 0.15rem solid #dd9900;
+}
+.error-message {
+  margin: 0;
+  font-weight: 500;
+  color: #cc3300;
+}

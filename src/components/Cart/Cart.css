@@ -1,0 +1,52 @@
+.cart {
+  position: sticky;
+  top: 0;
+  /* color: aliceblue; */
+}
+
+.clear-all-btn {
+  height: 50px;
+  width: 100%;
+  background-color: rgb(210, 48, 48);
+  border: 2px solid rgb(210, 48, 48);
+  border-radius: 4px;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease, color 0.35s ease-in;
+}
+.clear-all-btn * {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.clear-all-btn:hover {
+  background: transparent;
+  color: rgb(255, 48, 48);
+}
+.clear-all-btn:active {
+  scale: 0.96;
+}
+.review-btn {
+  height: 50px;
+  width: 100%;
+  background-color: #004f77;
+  border: 2px solid #004977;
+  border-radius: 4px;
+  color: white;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background 0.3s ease, color 0.35s ease-in;
+  margin: 1rem 0;
+}
+.review-btn * {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.review-btn:hover {
+  background: transparent;
+  color: #004977;
+}

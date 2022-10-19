@@ -1,0 +1,8 @@
+.orders-container {
+  display: grid;
+  /* place-items: center; */
+  margin: 0 auto;
+  gap: 1.5rem;
+  margin-top: 5rem;
+  transition: 0.5s ease-in;
+}
